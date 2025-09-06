@@ -46,4 +46,12 @@ let person=
 for(let key in person){
     console.log(`${key}: ${person[key]}`)
 }
+for(let i=5;i>=0;i--)P{
+    if(i==3){
+        continue;
+    
+    }elseif(i==2){
+        break;
+    }
+}
 
